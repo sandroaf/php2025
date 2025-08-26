@@ -11,6 +11,15 @@
         <li>
             <a href="primeiro.php" target="_blank">Primeiro Script PHP</a>
         </li>
+        <li>
+            <a href="variaveis.php" target="_blank">Variáveis em PHP</a>
+        </li>
+        <li>
+            <a href="operacoes.php" target="_blank">Operações em PHP</a>
+        </li>
+        <li>
+            <a href="get.php" target="_blank">Recebendo Valores por GET</a>
+        </li>
     </ul>
     <br>
     <?php 
