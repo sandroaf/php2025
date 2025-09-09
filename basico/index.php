@@ -24,6 +24,9 @@
             <a href="parimpar.php" target="_blank">Verificar Par ou Ímpar</a>
         </li>
         <li>
+            <a href="parimpar2.php" target="_blank">Verificar Par ou Ímpar, com função</a>
+        </li>
+        <li>
             <a href="tabuada.php" target="_blank">Tabuada de um Número</a>
         </li>
         <li>
