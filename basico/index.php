@@ -27,6 +27,9 @@
             <a href="tabuada.php" target="_blank">Tabuada de um Número</a>
         </li>
         <li>
+            <a href="tabuada2.php" target="_blank">Tabuada 2 de um Número até outro. Usando função</a>
+        </li>
+        <li>
             <a href="data.php" target="_blank">Data e Hora Atual</a>
         </li>
         <li>
