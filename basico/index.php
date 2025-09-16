@@ -6,37 +6,40 @@
     <title>Básico lingragem PHP</title>
 </head>
 <body>
+    <?php
+        include_once("../estrutura/header.php");
+    ?>
     <h1>Conceitos Básicos PHP</h1>
     <ul>
         <li>
-            <a href="primeiro.php" target="_blank">Primeiro Script PHP</a>
+            <a href="primeiro.php">Primeiro Script PHP</a>
         </li>
         <li>
-            <a href="variaveis.php" target="_blank">Variáveis em PHP</a>
+            <a href="variaveis.php">Variáveis em PHP</a>
         </li>
         <li>
-            <a href="operacoes.php" target="_blank">Operações em PHP</a>
+            <a href="operacoes.php">Operações em PHP</a>
         </li>
         <li>
-            <a href="get.php" target="_blank">Recebendo Valores por GET</a>
+            <a href="get.php">Recebendo Valores por GET</a>
         </li>
         <li>
-            <a href="parimpar.php" target="_blank">Verificar Par ou Ímpar</a>
+            <a href="parimpar.php">Verificar Par ou Ímpar</a>
         </li>
         <li>
-            <a href="parimpar2.php" target="_blank">Verificar Par ou Ímpar, com função</a>
+            <a href="parimpar2.php">Verificar Par ou Ímpar, com função</a>
         </li>
         <li>
-            <a href="tabuada.php" target="_blank">Tabuada de um Número</a>
+            <a href="tabuada.php">Tabuada de um Número</a>
         </li>
         <li>
-            <a href="tabuada2.php" target="_blank">Tabuada 2 de um Número até outro. Usando função</a>
+            <a href="tabuada2.php">Tabuada 2 de um Número até outro. Usando função</a>
         </li>
         <li>
-            <a href="data.php" target="_blank">Data e Hora Atual</a>
+            <a href="data.php">Data e Hora Atual</a>
         </li>
         <li>
-            <a href="idade.php" target="_blank">Calcular Idade</a>
+            <a href="idade.php">Calcular Idade</a>
         </li>
     </ul>
     <br>
@@ -46,6 +49,9 @@
        echo "<br>";
        echo $_SERVER['SERVER_NAME'];
        echo "<br>";
+    ?>
+    <?php
+        include_once("../estrutura/footer.php");
     ?>
 </body>
 </html>

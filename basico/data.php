@@ -6,6 +6,9 @@
     <title>Exemplo de Data</title>
 </head>
 <body>
+    <?php
+        include_once("../estrutura/header.php");
+    ?>    
     <h1>Exemplo de Data em PHP</h1>
     <?php
       //mostrar a data atual no formato dia/mes/ano
@@ -26,6 +29,8 @@
       echo "Data e hora atual com DateTime: " . $agora->format("d/m/Y H:i:s");
       echo "<br>";
     ?>
-    
+    <?php
+        include_once("../estrutura/footer.php");
+    ?>
 </body>
 </html>

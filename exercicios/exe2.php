@@ -6,6 +6,11 @@
     <title>Exercício - Introdução - exe2</title>
 </head>
 <body>
+    <?php 
+        include("../estrutura/header.php");
+        include("../estrutura/menuexe.php");
+
+    ?>
     <h1>Exercício 2</h1>
     <p>2. Altere a aplicação do exercício 1, para que o nome e a idade possam ser informados através de dados de um formulário html</p>
     <form method="get" action="exe2.php">
@@ -25,6 +30,11 @@
         $idade = $_GET["idade"];
         echo "Nome: $nome, idade $idade anos.";
      }
-?>
+    ?>
+    <br>
+    <?php 
+        include("../estrutura/footer.php");
+    ?>
+
 </body>
 </html>

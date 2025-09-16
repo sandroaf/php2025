@@ -5,16 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Par ou Ímpar 2 - Com Função</title>
     <?php 
-       function parimpar($numero) {
-           if (($numero % 2) == 0) {
-            return "par";
-           } else {
-            return "ímpar";
-           }
-       }
+        require_once("../estrutura/funcoes/matematica.php")
     ?>
 </head>
 <body>
+    <?php
+        include_once("../estrutura/header.php");
+    ?>
+
     <h1>Informar se número é par ou ímpar</h1>
     <p>Esta aplicação informar se o número é par ou ímpar</p>
     <br>
@@ -32,5 +30,9 @@
           echo "Atenção! Informe o número.";
        }
     ?>
+    <?php
+        include_once("../estrutura/footer.php");
+    ?>
+
 </body>
 </html>

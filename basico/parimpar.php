@@ -6,6 +6,10 @@
     <title>Exemplo Par ou Ímpar</title>
 </head>
 <body>
+    <?php
+        include_once("../estrutura/header.php");
+    ?>
+
     <h1>Verificar se um número é Par ou Ímpar</h1>
     <form action="parimpar.php" method="get">
         Número: <input type="number" name="numero" required>
@@ -23,5 +27,9 @@
         }
     }
     ?>  
+    <?php
+        include_once("../estrutura/footer.php");
+    ?>
+
 </body>
 </html>

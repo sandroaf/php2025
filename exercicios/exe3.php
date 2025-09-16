@@ -6,6 +6,10 @@
     <title>Exercício - Introdução - exe3</title>
 </head>
 <body>
+    <?php 
+        include("../estrutura/header.php");
+        include("../estrutura/menuexe.php");
+    ?>
     <h1>Exercício 3</h1>
     <p>3. Crie uma aplicação onde seja informado o nome e de uma pessoa e sua data de nascimento e a aplicação retorne se essa pessoa é maior ou menor de idade.</p>
     <form method="get" action="exe3.php">
@@ -33,6 +37,11 @@
         }
 
      }
-?>
+    ?>
+    <br>
+    <?php 
+        include("../estrutura/footer.php");
+    ?>
+
 </body>
 </html>

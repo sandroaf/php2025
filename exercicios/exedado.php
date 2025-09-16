@@ -14,6 +14,11 @@
     ?>
 </head>
 <body>
+    <?php 
+        include("../estrutura/header.php");
+        include("../estrutura/menuexe.php");
+
+    ?>
     <h1>Simulador de Dado</h1>
     <form action="exedado.php" method="GET">
         <button name="bsortear" value="sortear">Jogar o Dado</button>        
@@ -23,6 +28,10 @@
        if (isset($_GET["bsortear"])) {
           jogardado();
        }
+    ?>
+    <br>
+    <?php 
+        include("../estrutura/footer.php");
     ?>
 </body>
 </html>

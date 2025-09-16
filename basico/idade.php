@@ -6,6 +6,10 @@
     <title>Calcular Idade</title>
 </head>
 <body>
+    <?php
+        include_once("../estrutura/header.php");
+    ?>
+
     <h1>Calcular Idade em Anos, Meses e Dias</h1>
     <form action="idade.php" method="get">
         Data de Nascimento: <input type="date" name="data_nascimento" required>
@@ -23,5 +27,9 @@
             echo "Idade: " . $idade->y . " anos, " . $idade->m . " meses e " . $idade->d . " dias.";
         }
     ?>
+    <?php
+        include_once("../estrutura/footer.php");
+    ?>
+
 </body>
 </html>

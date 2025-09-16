@@ -5,17 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabuada 2 - Uso de Função</title>
     <?php 
-       function tabuada($numero, $ate) {
-          echo "Tabuada de $numero de 0 até $ate <br>";
-          for ($i=0; $i <= $ate; $i++) {
-            $resultado = $i * $numero;
-            echo "$i x $numero = $resultado <br>";
-          }
-       }
-    
+        require_once("../estrutura/funcoes/matematica.php")
     ?>
 </head>
 <body>
+    <?php
+        include_once("../estrutura/header.php");
+    ?>
     <form action="tabuada2.php" method="POST">
         <label for="itabuada">Informe o número que deseja a Tabuada:</label>
         <input type="number" id="itabuada" name="itabuada">
@@ -40,6 +36,9 @@
          echo "Atenção: Importante informar todos os campos";
        }
 
+    ?>
+    <?php
+        include_once("../estrutura/footer.php");
     ?>
 </body>
 </html>

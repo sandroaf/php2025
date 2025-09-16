@@ -6,6 +6,11 @@
     <title>Exercício Instrodução PHP</title>
 </head>
 <body>
+    <?php 
+        include("../estrutura/header.php");
+        include("../estrutura/menuexe.php");
+
+    ?>
     <h1>Exercícios de Introdução ao PHP</h1>
     <ul>
         <li><a href="exe1.php">Exercício 1</a></li>
@@ -13,5 +18,8 @@
         <li><a href="exe3.php">Exercício 3</a></li>
         <li><a href="exedado.php">Exercício Dado</a></li>
     </ul>
+    <?php 
+     include("../estrutura/footer.php"); 
+    ?>	
 </body>
 </html>

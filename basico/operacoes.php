@@ -6,6 +6,10 @@
     <title>Exemplo Operações PHP</title>
 </head>
 <body>
+    <?php
+        include_once("../estrutura/header.php");
+    ?>
+
     <h1>Operações em PHP</h1>
     <?php
       echo "<h3>Operações Aritméticas</h3>";
@@ -34,5 +38,9 @@
       $x++; // $x = $x + 1
       echo "Resultado: " . $x;
     ?>
+    <?php
+        include_once("../estrutura/footer.php");
+    ?>
+
 </body>
 </html>
