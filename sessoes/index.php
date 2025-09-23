@@ -13,7 +13,7 @@
     <?php 
        require_once("../estrutura/header.php");
     ?>
-       <form action="index.php" method="POST">
+       <form action="index.php" method="GET">
            <label for="inome">Nome:</label>
            <input type="text" name="inome" id="inome">
            <br>
@@ -22,10 +22,10 @@
            <button name="benviar" id="benviar">Enviar</button>
        </form>
        <?php 
-          if (isset($_POST["inome"]) &&
-              isset($_POST["icor"])) {
-              $_SESSION["nome"] = $_POST["inome"];
-              $_SESSION["cor"] = $_POST["icor"];
+          if (isset($_GET["inome"]) &&
+              isset($_GET["icor"])) {
+              $_SESSION["nome"] = $_GET["inome"];
+              $_SESSION["cor"] = $_GET["icor"];
               echo "OK! Informações salvas na sessão.";
           } else {
             echo "ATENÇÃO ! Informe nome e cor";

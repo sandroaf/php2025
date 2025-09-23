@@ -22,6 +22,8 @@
                 </span>
             </span>
             </p>
+            <br>
+            <button onclick="window.location.href='limpar.php'">Limpar Sessão</button>
             <?php
           } else {
             header("Location: index.php");

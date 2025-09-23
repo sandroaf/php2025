@@ -21,6 +21,9 @@
             <a href="sessoes/">Exemplo de uso de Sessões</a>
         </li>
         <li>
+            <a href="array/">Exemplo de uso de Arrays</a>
+        </li>
+        <li>
             <a href="phpinfo/phpinfo.php">phpinfo</a>
         </li>
     </ul>
