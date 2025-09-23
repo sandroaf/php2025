@@ -38,6 +38,29 @@
             echo "<li>" . $fruta . "</li>";
         }
         echo "</ul>";
+        echo "<h2>Array Associativo</h2>";
+        $pessoa[] = array(
+            "nome" => "João",
+            "idade" => 25,
+            "cidade" => "São Paulo"
+        ); 
+        $pessoa[] = array(
+            "nome" => "Maria",
+            "idade" => 30,
+            "cidade" => "Rio de Janeiro"
+        );
+        $pessoa[] = array(
+            "nome" => "Pedro",
+            "idade" => 28,
+            "cidade" => "Belo Horizonte"
+        );
+        echo "<h2>Lista de pessoas</h2>";
+        echo "<ul>";
+        foreach ($pessoa as $p) {
+            echo "<li>" . $p["nome"] . ", " . $p["idade"] . " anos, " . $p["cidade"] . "</li>";
+        }
+        echo "</ul>";
+
     ?>
     <?php
         include_once("../estrutura/footer.php");
