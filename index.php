@@ -18,6 +18,9 @@
             <a href="exercicios/">Exercícios PHP</a>
         </li>
         <li>
+            <a href="sessoes/">Exemplo de uso de Sessões</a>
+        </li>
+        <li>
             <a href="phpinfo/phpinfo.php">phpinfo</a>
         </li>
     </ul>
