@@ -24,6 +24,12 @@
             <a href="array/">Exemplo de uso de Arrays</a>
         </li>
         <li>
+            <a href="semana/">Exemplos Semana</a>
+        </li>
+        <li>
+            <a href="semana_ajax/">Exemplos Semana Ajax</a>
+        </li>
+        <li>
             <a href="phpinfo/phpinfo.php">phpinfo</a>
         </li>
     </ul>
