@@ -33,6 +33,9 @@
             <a href="semana_ajax/">Exemplos Semana Ajax</a>
         </li>
         <li>
+            <a href="login/">Exemplo Login com seção</a>
+        </li>
+        <li>
             <a href="phpinfo/phpinfo.php">phpinfo</a>
         </li>
     </ul>
