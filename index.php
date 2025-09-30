@@ -24,6 +24,9 @@
             <a href="array/">Exemplo de uso de Arrays</a>
         </li>
         <li>
+            <a href="mes">Exemplo nome mês Array</a>
+        </li>
+        <li>
             <a href="semana/">Exemplos Semana</a>
         </li>
         <li>
