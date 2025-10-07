@@ -36,7 +36,7 @@
             <a href="login/">Exemplo Login com seção</a>
         </li>
         <li>
-            <a href="login/">Exemplo seção </a>
+            <a href="sessao_array/">Exemplo sessão e array </a>
         </li>
         <li>
             <a href="phpinfo/phpinfo.php">phpinfo</a>
